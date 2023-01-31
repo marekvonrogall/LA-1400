@@ -3,8 +3,8 @@ import robocode.*;
 
 public class Metall extends JuniorRobot
 {
-public boolean scanned = false;
-public int counter = 0;
+	public boolean scanned = false;
+	public int counter = 0;
 	//If the opponent has been lost, the QuickScan scans a smaller radius to find the robot faster.
 	public void quickScan() {
 		if(scanned == true) {
